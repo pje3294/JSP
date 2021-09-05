@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib version="2.0" xmlns="http://java.sun.com/xml/ns/j2ee"
+	xmlns:xml="http://www.w3.org/XML/1998/namespace"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd ">
+	<tlib-version>0.0</tlib-version>
+	<short-name>NMTOKEN</short-name>
+
+
+	<tag>
+	<name>test</name>	<!-- 태그이름 설정 -->
+	<tag-class>tag.TestTagHandler</tag-class>  <!-- 외부의 어떤 태그 핸들러랑 연결되잇는지 -->
+	<body-content>empty</body-content>  <!-- 바디컨텐트 사용할지 말지 -->
+	</tag>
+
+
+</taglib>
